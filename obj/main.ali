@@ -21,7 +21,7 @@ RV NO_IMPLEMENTATION_ATTRIBUTES
 RV NO_IMPLEMENTATION_PRAGMAS
 RV MAX_TASKS=1+
 
-U main%b		main.adb		c46bbd23 NE OO SU IL
+U main%b		main.adb		29017121 NE OO SU IL
 W ada%s			ada.ads			ada.ali
 W ada.calendar%s	a-calend.adb		a-calend.ali
 Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
@@ -63,7 +63,7 @@ D interfac.ads		20210520051132 edec285f interfaces%s
 D i-c.ads		20210520051132 d9beded9 interfaces.c%s
 D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D main.adb		20230322073644 dd1ea04f main%b
+D main.adb		20230322082124 30746c4d main%b
 D system.ads		20210520051136 2ffa5114 system%s
 D s-atacco.ads		20210520051132 4c36d12f system.address_to_access_conversions%s
 D s-conca6.ads		20210520051132 d2c72db2 system.concat_6%s
@@ -95,45 +95,47 @@ D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
 D s-win32.ads		20210520051136 15ac53fb system.win32%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 G a e
-G c Z b b [main standard 7 11 none]
+G c Z b b [main standard 6 11 none]
 X 1 ada.ads
-16K9*Ada 20e8 23|1r6 1r24 2r7 2r24 3r6 3r26 4r6 15r23 55r7
+16K9*Ada 20e8 23|1r6 1r24 2r7 2r24 3r6 3r26 4r6 12r23 55r7
 X 2 a-calend.ads
 36K13*Calendar 413e17 23|1w10 1r28
 X 4 a-contai.ads
-16K13*Containers 28e19 23|3w10 3r30 4r10 15r27
+16K13*Containers 28e19 23|3w10 3r30 4r10 12r27
 X 5 a-cgarso.ads
-17E9 Index_Type 23|16r6
-18+9 Element_Type 23|17r5
-19A9 Array_Type(18+9)<17E9> 23|18r5
-23u26*Generic_Array_Sort 4|16k13 23|4w21 15r38
+17E9 Index_Type 23|13r6
+18+9 Element_Type 23|14r5
+19A9 Array_Type(18+9)<17E9> 23|15r5
+23u26*Generic_Array_Sort 4|16k13 23|4w21 12r38
 X 6 a-cgarso.adb
-41U14 Sort[7|24] 8|32b26[23|15]
+41U14 Sort[7|24] 8|32b26[23|12]
 X 7 a-cgcaso.ads
 24u26*Generic_Constrained_Array_Sort 4|16k13
 X 17 a-textio.ads
 58K13*Text_IO 725e16 23|2w11 2r28 55r11
 506U14*Put_Line 23|55s19
 X 23 main.adb
-7U11*main 7b11 66l5 66t9
-10A9 arr_d(duration)<integer> 12r13 18r21
-12a4 timers{10A9} 27r16 28r13 30m10 48r14 65m9 65r9
-15U11 Sort[5|23] 6|32b26 23|65s4
-20o4 A{duration} 28m10 29r16
-22T14 break_thread 25b14 34l8 34t20 58r9
-23T14 main_thread 23d26 36b14 56l8 56t19 60r9 61r9 62r9 63r9
-23i26 id{integer} 48r21 55r34
-27i11 t{integer} 28r20 30r17
-37i7 step{long_long_integer} 44r29
-38i7 number{long_long_integer} 44m10 44r20 46r23
-39i7 numeric{long_long_integer} 45m10 45r21 55r71
-40i7 sum{long_long_integer} 46m10 46r17 55r50
-41b7 can_stop{boolean} 49m13 52r20
-58t4 b1{22T14}
-60t4 t1{23T14}
-61t4 t2{23T14}
-62t4 t3{23T14}
-63t4 t4{23T14}
+6U11*main 6b11 71l5 71t9
+8A9 arr_d(duration)<integer> 9r13 15r21
+9a4 timers{8A9} 24r16 25r13 27m10 40r19 47r14 57r13 59m10 59r21 70m9 70r9
+12U11 Sort[5|23] 6|32b26 23|70s4
+17o4 A{duration} 25m10 26r16
+19T14 break_thread 22b14 31l8 31t20 63r9
+20T14 main_thread 20d26 33b14 61l8 61t19 65r9 66r9 67r9 68r9
+20i26 id{integer} 40r26 47r21 55r34
+24i11 t{integer} 25r20 27r17
+34i7 step{long_long_integer} 43r29
+35i7 number{long_long_integer} 43m10 43r20 45r23
+36i7 numeric{long_long_integer} 44m10 44r21 55r71
+37i7 sum{long_long_integer} 45m10 45r17 55r50
+38b7 can_stop{boolean} 48m13 51r20
+40o7 b{duration} 59r31
+57i8 t{integer} 59r17 59r28
+63t4 b1{19T14}
+65t4 t1{20T14}
+66t4 t2{20T14}
+67t4 t3{20T14}
+68t4 t4{20T14}
 X 40 s-stausa.ads
 208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
 273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22

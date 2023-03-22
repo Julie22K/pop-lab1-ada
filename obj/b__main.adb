@@ -318,9 +318,9 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   C:\GNAT\2021\bin\src\obj\main.o
-   --   -LC:\GNAT\2021\bin\src\obj\
-   --   -LC:\GNAT\2021\bin\src\obj\
+   --   C:\GNAT\2021\bin\src\popLab1\obj\main.o
+   --   -LC:\GNAT\2021\bin\src\popLab1\obj\
+   --   -LC:\GNAT\2021\bin\src\popLab1\obj\
    --   -LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
    --   -static
    --   -lgnarl
